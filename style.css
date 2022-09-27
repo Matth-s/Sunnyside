@@ -9,7 +9,7 @@ a {
 li {
     list-style-type: none;
 }
-.angle, .triangle {
+.none {
     display: none;
 }
 body {
@@ -153,8 +153,8 @@ a {
 }
 .element-container-un-deux {
     background-image: url(images/desktop/image-transform.jpg);
+    width: 50%;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 #container-main-deux  {
@@ -450,6 +450,9 @@ footer {
         right: 0;
         z-index: 1;
         padding-bottom: 30px;
+    }
+    .none {
+        display: block;
     }
     .angle {
         display: block;
